@@ -38,6 +38,7 @@ while (<STDIN>) {
         print "No query exists. Please type another : ";
     }
 }
+
 # retrieve generated files from reading and parsing collection
 my $vocabulary_file = $parser->getVocabFile();
 my $docno_file = $parser->getDocNoFile();
