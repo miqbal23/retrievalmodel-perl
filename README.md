@@ -31,4 +31,5 @@ query_code      document_no
 
 After retrieving documents using the model, the result will be evaluated using 3 measures : Accuracy, Recall, Mean Average Precision (MAP), by using relevance judgement file.
 
+### Drawbacks
 There are problem in reading special characters during parsing and tokenization (reason unknown, but the usage of XML library for parsing assumed to be the main cause)
